@@ -1,0 +1,1 @@
+let t=document.getElementById("element-to-print");document.getElementById("saveButton").addEventListener("click",()=>{t.setAttribute("print-version",""),html2pdf(t),setTimeout(()=>{t.removeAttribute("print-version")},0)});
