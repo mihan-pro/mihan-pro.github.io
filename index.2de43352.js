@@ -1,1 +1,0 @@
-let t=document.getElementById("element-to-print");document.getElementById("saveButton").addEventListener("click",()=>{t.setAttribute("print-version",""),window.print(),setTimeout(()=>{t.removeAttribute("print-version")},0)});
